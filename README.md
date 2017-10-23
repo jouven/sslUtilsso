@@ -3,7 +3,7 @@ Simple helper library to generate private/public keys (RSA) and certificate (X50
 
 Compilation
 -----------
-Requires qmake (not the full Qt library) and openssl.
+Requires qmake (not the full Qt library), openssl and https://github.com/jouven/baseClassQtso.
 
 Run (in sslUtilsso source directory or pointing to it):
 
