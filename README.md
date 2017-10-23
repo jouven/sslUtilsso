@@ -1,11 +1,11 @@
-# qmutexUMapQtso
-Simple helper library to use/"organize" mutex objects using an unordered_map
+# sslUtilsso
+Simple helper library to generate private/public keys (RSA) and certificate (X509)
 
 Compilation
 -----------
-Requires Qt library.
+Requires qmake (not the full Qt library) and openssl.
 
-Run (in qmutexUMapQtso source directory or pointing to it):
+Run (in sslUtilsso source directory or pointing to it):
 
     qmake
 
