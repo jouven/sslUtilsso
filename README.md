@@ -1,5 +1,5 @@
 # sslUtilsso
-Simple helper library to generate private/public keys (RSA) and certificate (X509)
+Simple helper C++ library to generate private/public keys (RSA) and certificate (X509)
 
 Compilation
 -----------
