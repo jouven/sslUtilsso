@@ -29,7 +29,7 @@ win32:MYPATH = "H:/veryuseddata/portable/msys64/"
 #mine
 INCLUDEPATH += $${MYPATH}home/jouven/mylibs/include
 
-#LIBS += -lssl -lcrypto
+LIBS += -lssl -lcrypto
 #don't new line the "{"
 #release
 CONFIG(release, debug|release){
