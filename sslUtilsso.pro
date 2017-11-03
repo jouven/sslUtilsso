@@ -45,6 +45,8 @@ CONFIG(debug, debug|release){
     DEFINES += DEBUGJOUVEN
 }
 
+LIBS += -lssl -lcrypto
+
 QMAKE_CXXFLAGS_DEBUG -= -g
 QMAKE_CXXFLAGS_DEBUG += -pedantic -Wall -Wextra -g3
 
