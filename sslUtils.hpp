@@ -2,6 +2,7 @@
 #define SSLUTILSSO_SSLUTILS_HPP
 
 #include "comuso/baseClassTemplate.hpp"
+#include "crossPlatformMacros.hpp"
 
 #include <openssl/pem.h>
 #include <openssl/x509.h>
@@ -11,7 +12,7 @@
 namespace eines
 {
 
-class sslUtils_c : public eines::baseClass::baseClass_c
+class EXPIMP_SSLUTILSSO sslUtils_c : public eines::baseClass::baseClass_c
 {
     //this one is required for the others
     bool RSAGenerated_pri = false;
