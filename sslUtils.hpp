@@ -9,8 +9,6 @@
 
 #include <string>
 
-namespace eines
-{
 
 class EXPIMP_SSLUTILSSO sslUtils_c : public eines::baseClass::baseClass_c
 {
@@ -60,6 +58,5 @@ public:
 //    bool certficateGenerated_f() const;
 };
 
-}
 
 #endif // SSLUTILSSO_SSLUTILS_HPP

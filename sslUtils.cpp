@@ -1,6 +1,5 @@
 #include "sslUtils.hpp"
-namespace eines
-{
+
 //bool sslUtils_c::RSAGenerated_f() const
 //{
 //    return RSAGenerated_pri;
@@ -250,4 +249,4 @@ std::string sslUtils_c::keyCertificateStr_f()
     return str;
 }
 
-}
+
