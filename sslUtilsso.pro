@@ -1,7 +1,6 @@
 #message($$QMAKESPEC)
-QT -= gui core
+QT -= gui
 
-TARGET = sslUtilsso
 TEMPLATE = lib
 
 !android:QMAKE_CXXFLAGS += -std=c++17
